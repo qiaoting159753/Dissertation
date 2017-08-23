@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/t/Documents/clion-2017.1.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/t/Documents/clion-2017.1.3/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/t/CLionProjects/Dissertation
+CMAKE_SOURCE_DIR = /Users/qiaoting/GitHub/Dissertation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/t/CLionProjects/Dissertation/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/qiaoting/GitHub/Dissertation/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/t/CLionProjects/Dissertation/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/t/Documents/clion-2017.1.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/t/Documents/clion-2017.1.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles /home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles /Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,33 +177,6 @@ src/Frame.cpp.s:
 	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/Frame.cpp.s
 .PHONY : src/Frame.cpp.s
 
-src/FrameDrawer.o: src/FrameDrawer.cpp.o
-
-.PHONY : src/FrameDrawer.o
-
-# target to build an object file
-src/FrameDrawer.cpp.o:
-	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o
-.PHONY : src/FrameDrawer.cpp.o
-
-src/FrameDrawer.i: src/FrameDrawer.cpp.i
-
-.PHONY : src/FrameDrawer.i
-
-# target to preprocess a source file
-src/FrameDrawer.cpp.i:
-	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.i
-.PHONY : src/FrameDrawer.cpp.i
-
-src/FrameDrawer.s: src/FrameDrawer.cpp.s
-
-.PHONY : src/FrameDrawer.s
-
-# target to generate assembly for a file
-src/FrameDrawer.cpp.s:
-	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.s
-.PHONY : src/FrameDrawer.cpp.s
-
 src/Map.o: src/Map.cpp.o
 
 .PHONY : src/Map.o
@@ -230,33 +203,6 @@ src/Map.s: src/Map.cpp.s
 src/Map.cpp.s:
 	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/Map.cpp.s
 .PHONY : src/Map.cpp.s
-
-src/MapDrawer.o: src/MapDrawer.cpp.o
-
-.PHONY : src/MapDrawer.o
-
-# target to build an object file
-src/MapDrawer.cpp.o:
-	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o
-.PHONY : src/MapDrawer.cpp.o
-
-src/MapDrawer.i: src/MapDrawer.cpp.i
-
-.PHONY : src/MapDrawer.i
-
-# target to preprocess a source file
-src/MapDrawer.cpp.i:
-	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.i
-.PHONY : src/MapDrawer.cpp.i
-
-src/MapDrawer.s: src/MapDrawer.cpp.s
-
-.PHONY : src/MapDrawer.s
-
-# target to generate assembly for a file
-src/MapDrawer.cpp.s:
-	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.s
-.PHONY : src/MapDrawer.cpp.s
 
 src/MapPoint.o: src/MapPoint.cpp.o
 
@@ -435,15 +381,9 @@ help:
 	@echo "... src/Frame.o"
 	@echo "... src/Frame.i"
 	@echo "... src/Frame.s"
-	@echo "... src/FrameDrawer.o"
-	@echo "... src/FrameDrawer.i"
-	@echo "... src/FrameDrawer.s"
 	@echo "... src/Map.o"
 	@echo "... src/Map.i"
 	@echo "... src/Map.s"
-	@echo "... src/MapDrawer.o"
-	@echo "... src/MapDrawer.i"
-	@echo "... src/MapDrawer.s"
 	@echo "... src/MapPoint.o"
 	@echo "... src/MapPoint.i"
 	@echo "... src/MapPoint.s"

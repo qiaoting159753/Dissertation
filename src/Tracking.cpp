@@ -107,8 +107,7 @@ namespace Dissertation {
             mLastFrame = Frame(mCurrentFrame);
             mMMap.AddFrame(&mCurrentFrame);
             cout << "cccccccccccccccccccccccccccccc" << endl;
-            mpMapDrawer->SetCurrentCameraPose(cv::Mat::eye(4,4,CV_64F));
-            mState=OK;
+
 //            mnLastKeyFrameId=mCurrentFrame.mnId;
 //            mpLastKeyFrame = pKFini;
 //

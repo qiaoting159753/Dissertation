@@ -8,8 +8,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Dissertation.dir/src/Map.cpp.o"
   "CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o"
   "CMakeFiles/Dissertation.dir/src/Viewer.cpp.o"
-  "CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o"
-  "CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o"
   "Dissertation.pdb"
   "Dissertation"
 )

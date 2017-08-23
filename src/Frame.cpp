@@ -240,23 +240,24 @@ namespace Dissertation
     }
 
     void Frame::ComputeStereoMatches() {
-        QuasiDenseStereo qds;
-        //Texture threshold
-        qds.Param.Tt = 120;
-        qds.Param.BorderX = 40;
-        qds.Param.BorderY = 40;
-        //Searching area
-        qds.Param.N = 15;
-        //Correlation
-        qds.Param.Ct = 0.90;
-        //Gradient searching threshold
-        qds.Param.Dg = 2;
-        qds.Param.WinSizeY = 15;
-        qds.Param.WinSizeX = 15;
-        qds.process(imgLeft, imgRight);
-
-        std::pair<std::vector<cv::Point2f>, std::vector<cv::Point2f>> matches;
-        matches = qds.AssignDispToImage(DepthMap);
+        cout << "Feature detected: " << N << endl;
+//        QuasiDenseStereo qds;
+//        //Texture threshold
+//        qds.Param.Tt = 120;
+//        qds.Param.BorderX = 40;
+//        qds.Param.BorderY = 40;
+//        //Searching area
+//        qds.Param.N = 15;
+//        //Correlation
+//        qds.Param.Ct = 0.90;
+//        //Gradient searching threshold
+//        qds.Param.Dg = 2;
+//        qds.Param.WinSizeY = 15;
+//        qds.Param.WinSizeX = 15;
+//        qds.process(imgLeft, imgRight);
+//
+//        std::pair<std::vector<cv::Point2f>, std::vector<cv::Point2f>> matches;
+//        matches = qds.AssignDispToImage(DepthMap);
 
         mvuRight = vector<float>(N,-1.0f);
         mvDepth = vector<float>(N,-1.0f);

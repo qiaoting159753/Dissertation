@@ -13,7 +13,6 @@
 #include <DBoW2/TemplatedVocabulary.h>
 #include "Camera.h"
 #include <mutex>
-#include <opencv2/stitching.hpp>
 
 using namespace std;
 using namespace cv;

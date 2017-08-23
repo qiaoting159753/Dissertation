@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/t/Documents/clion-2017.1.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/t/Documents/clion-2017.1.3/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/t/CLionProjects/Dissertation
+CMAKE_SOURCE_DIR = /Users/qiaoting/GitHub/Dissertation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/t/CLionProjects/Dissertation/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/qiaoting/GitHub/Dissertation/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Dissertation.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Dissertation.dir/flags.make
 
 CMakeFiles/Dissertation.dir/main.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dissertation.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/main.cpp.o -c /home/t/CLionProjects/Dissertation/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dissertation.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/main.cpp.o -c /Users/qiaoting/GitHub/Dissertation/main.cpp
 
 CMakeFiles/Dissertation.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/main.cpp > CMakeFiles/Dissertation.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/main.cpp > CMakeFiles/Dissertation.dir/main.cpp.i
 
 CMakeFiles/Dissertation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/main.cpp -o CMakeFiles/Dissertation.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/main.cpp -o CMakeFiles/Dissertation.dir/main.cpp.s
 
 CMakeFiles/Dissertation.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Dissertation.dir/main.cpp.o.provides.build: CMakeFiles/Dissertation.d
 
 CMakeFiles/Dissertation.dir/src/MapPoint.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/src/MapPoint.cpp.o: ../src/MapPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Dissertation.dir/src/MapPoint.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/MapPoint.cpp.o -c /home/t/CLionProjects/Dissertation/src/MapPoint.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Dissertation.dir/src/MapPoint.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/MapPoint.cpp.o -c /Users/qiaoting/GitHub/Dissertation/src/MapPoint.cpp
 
 CMakeFiles/Dissertation.dir/src/MapPoint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/MapPoint.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/MapPoint.cpp > CMakeFiles/Dissertation.dir/src/MapPoint.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/src/MapPoint.cpp > CMakeFiles/Dissertation.dir/src/MapPoint.cpp.i
 
 CMakeFiles/Dissertation.dir/src/MapPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/MapPoint.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/MapPoint.cpp -o CMakeFiles/Dissertation.dir/src/MapPoint.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/src/MapPoint.cpp -o CMakeFiles/Dissertation.dir/src/MapPoint.cpp.s
 
 CMakeFiles/Dissertation.dir/src/MapPoint.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Dissertation.dir/src/MapPoint.cpp.o.provides.build: CMakeFiles/Disser
 
 CMakeFiles/Dissertation.dir/src/Frame.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/src/Frame.cpp.o: ../src/Frame.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Dissertation.dir/src/Frame.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/Frame.cpp.o -c /home/t/CLionProjects/Dissertation/src/Frame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Dissertation.dir/src/Frame.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/Frame.cpp.o -c /Users/qiaoting/GitHub/Dissertation/src/Frame.cpp
 
 CMakeFiles/Dissertation.dir/src/Frame.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/Frame.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/Frame.cpp > CMakeFiles/Dissertation.dir/src/Frame.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/src/Frame.cpp > CMakeFiles/Dissertation.dir/src/Frame.cpp.i
 
 CMakeFiles/Dissertation.dir/src/Frame.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/Frame.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/Frame.cpp -o CMakeFiles/Dissertation.dir/src/Frame.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/src/Frame.cpp -o CMakeFiles/Dissertation.dir/src/Frame.cpp.s
 
 CMakeFiles/Dissertation.dir/src/Frame.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Dissertation.dir/src/Frame.cpp.o.provides.build: CMakeFiles/Dissertat
 
 CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.o: ../src/ORBextractor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.o -c /home/t/CLionProjects/Dissertation/src/ORBextractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.o -c /Users/qiaoting/GitHub/Dissertation/src/ORBextractor.cpp
 
 CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/ORBextractor.cpp > CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/src/ORBextractor.cpp > CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.i
 
 CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/ORBextractor.cpp -o CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/src/ORBextractor.cpp -o CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.s
 
 CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Dissertation.dir/src/ORBextractor.cpp.o.provides.build: CMakeFiles/Di
 
 CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.o: ../src/ORBmatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.o -c /home/t/CLionProjects/Dissertation/src/ORBmatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.o -c /Users/qiaoting/GitHub/Dissertation/src/ORBmatcher.cpp
 
 CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/ORBmatcher.cpp > CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/src/ORBmatcher.cpp > CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.i
 
 CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/ORBmatcher.cpp -o CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/src/ORBmatcher.cpp -o CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.s
 
 CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Dissertation.dir/src/ORBmatcher.cpp.o.provides.build: CMakeFiles/Diss
 
 CMakeFiles/Dissertation.dir/src/Tracking.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/src/Tracking.cpp.o: ../src/Tracking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Dissertation.dir/src/Tracking.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/Tracking.cpp.o -c /home/t/CLionProjects/Dissertation/src/Tracking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Dissertation.dir/src/Tracking.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/Tracking.cpp.o -c /Users/qiaoting/GitHub/Dissertation/src/Tracking.cpp
 
 CMakeFiles/Dissertation.dir/src/Tracking.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/Tracking.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/Tracking.cpp > CMakeFiles/Dissertation.dir/src/Tracking.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/src/Tracking.cpp > CMakeFiles/Dissertation.dir/src/Tracking.cpp.i
 
 CMakeFiles/Dissertation.dir/src/Tracking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/Tracking.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/Tracking.cpp -o CMakeFiles/Dissertation.dir/src/Tracking.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/src/Tracking.cpp -o CMakeFiles/Dissertation.dir/src/Tracking.cpp.s
 
 CMakeFiles/Dissertation.dir/src/Tracking.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Dissertation.dir/src/Tracking.cpp.o.provides.build: CMakeFiles/Disser
 
 CMakeFiles/Dissertation.dir/src/Map.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/src/Map.cpp.o: ../src/Map.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Dissertation.dir/src/Map.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/Map.cpp.o -c /home/t/CLionProjects/Dissertation/src/Map.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Dissertation.dir/src/Map.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/Map.cpp.o -c /Users/qiaoting/GitHub/Dissertation/src/Map.cpp
 
 CMakeFiles/Dissertation.dir/src/Map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/Map.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/Map.cpp > CMakeFiles/Dissertation.dir/src/Map.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/src/Map.cpp > CMakeFiles/Dissertation.dir/src/Map.cpp.i
 
 CMakeFiles/Dissertation.dir/src/Map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/Map.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/Map.cpp -o CMakeFiles/Dissertation.dir/src/Map.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/src/Map.cpp -o CMakeFiles/Dissertation.dir/src/Map.cpp.s
 
 CMakeFiles/Dissertation.dir/src/Map.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Dissertation.dir/src/Map.cpp.o.provides.build: CMakeFiles/Dissertatio
 
 CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o: ../src/QuasiDenseStereo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o -c /home/t/CLionProjects/Dissertation/src/QuasiDenseStereo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o -c /Users/qiaoting/GitHub/Dissertation/src/QuasiDenseStereo.cpp
 
 CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/QuasiDenseStereo.cpp > CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/src/QuasiDenseStereo.cpp > CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.i
 
 CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/QuasiDenseStereo.cpp -o CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/src/QuasiDenseStereo.cpp -o CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.s
 
 CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/Dissertation.dir/src/Viewer.cpp.o: CMakeFiles/Dissertation.dir/flags.make
 CMakeFiles/Dissertation.dir/src/Viewer.cpp.o: ../src/Viewer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Dissertation.dir/src/Viewer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/Viewer.cpp.o -c /home/t/CLionProjects/Dissertation/src/Viewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Dissertation.dir/src/Viewer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/Viewer.cpp.o -c /Users/qiaoting/GitHub/Dissertation/src/Viewer.cpp
 
 CMakeFiles/Dissertation.dir/src/Viewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/Viewer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/Viewer.cpp > CMakeFiles/Dissertation.dir/src/Viewer.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/qiaoting/GitHub/Dissertation/src/Viewer.cpp > CMakeFiles/Dissertation.dir/src/Viewer.cpp.i
 
 CMakeFiles/Dissertation.dir/src/Viewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/Viewer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/Viewer.cpp -o CMakeFiles/Dissertation.dir/src/Viewer.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/qiaoting/GitHub/Dissertation/src/Viewer.cpp -o CMakeFiles/Dissertation.dir/src/Viewer.cpp.s
 
 CMakeFiles/Dissertation.dir/src/Viewer.cpp.o.requires:
 
@@ -273,54 +273,6 @@ CMakeFiles/Dissertation.dir/src/Viewer.cpp.o.provides: CMakeFiles/Dissertation.d
 CMakeFiles/Dissertation.dir/src/Viewer.cpp.o.provides.build: CMakeFiles/Dissertation.dir/src/Viewer.cpp.o
 
 
-CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o: CMakeFiles/Dissertation.dir/flags.make
-CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o: ../src/FrameDrawer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o -c /home/t/CLionProjects/Dissertation/src/FrameDrawer.cpp
-
-CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/FrameDrawer.cpp > CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.i
-
-CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/FrameDrawer.cpp -o CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.s
-
-CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o.requires:
-
-.PHONY : CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o.requires
-
-CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o.provides: CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o.provides.build
-.PHONY : CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o.provides
-
-CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o.provides.build: CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o
-
-
-CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o: CMakeFiles/Dissertation.dir/flags.make
-CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o: ../src/MapDrawer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o -c /home/t/CLionProjects/Dissertation/src/MapDrawer.cpp
-
-CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t/CLionProjects/Dissertation/src/MapDrawer.cpp > CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.i
-
-CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t/CLionProjects/Dissertation/src/MapDrawer.cpp -o CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.s
-
-CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o.requires:
-
-.PHONY : CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o.requires
-
-CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o.provides: CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Dissertation.dir/build.make CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o.provides.build
-.PHONY : CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o.provides
-
-CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o.provides.build: CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o
-
-
 # Object files for target Dissertation
 Dissertation_OBJECTS = \
 "CMakeFiles/Dissertation.dir/main.cpp.o" \
@@ -331,9 +283,7 @@ Dissertation_OBJECTS = \
 "CMakeFiles/Dissertation.dir/src/Tracking.cpp.o" \
 "CMakeFiles/Dissertation.dir/src/Map.cpp.o" \
 "CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o" \
-"CMakeFiles/Dissertation.dir/src/Viewer.cpp.o" \
-"CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o" \
-"CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o"
+"CMakeFiles/Dissertation.dir/src/Viewer.cpp.o"
 
 # External object files for target Dissertation
 Dissertation_EXTERNAL_OBJECTS =
@@ -347,78 +297,64 @@ Dissertation: CMakeFiles/Dissertation.dir/src/Tracking.cpp.o
 Dissertation: CMakeFiles/Dissertation.dir/src/Map.cpp.o
 Dissertation: CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o
 Dissertation: CMakeFiles/Dissertation.dir/src/Viewer.cpp.o
-Dissertation: CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o
-Dissertation: CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o
 Dissertation: CMakeFiles/Dissertation.dir/build.make
-Dissertation: /usr/local/lib/libopencv_stitching.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_superres.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_videostab.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_aruco.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_bgsegm.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_bioinspired.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_ccalib.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_dpm.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_freetype.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_fuzzy.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_line_descriptor.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_optflow.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_reg.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_saliency.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_sfm.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_stereo.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_structured_light.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_surface_matching.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_tracking.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_xfeatures2d.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_ximgproc.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_xobjdetect.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_xphoto.so.3.2.0
-Dissertation: /usr/local/lib/libpangolin.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libboost_system.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-Dissertation: /home/t/Documents/ORB_SLAM2-master/Thirdparty/DBoW2/lib/libDBoW2.so
-Dissertation: /usr/local/lib/libopencv_shape.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_phase_unwrapping.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_rgbd.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_calib3d.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_video.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_datasets.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_dnn.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_face.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_plot.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_text.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_features2d.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_flann.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_objdetect.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_ml.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_highgui.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_photo.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_videoio.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_imgcodecs.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_imgproc.so.3.2.0
-Dissertation: /usr/local/lib/libopencv_core.so.3.2.0
-Dissertation: /usr/lib/x86_64-linux-gnu/libGLU.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libGL.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libGLEW.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libSM.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libICE.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libX11.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libXext.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libdc1394.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libavcodec.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libavformat.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libavutil.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libswscale.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libpng.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libz.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libjpeg.so
-Dissertation: /usr/lib/x86_64-linux-gnu/libtiff.so
+Dissertation: /usr/local/lib/libopencv_superres.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_videostab.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_aruco.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_bgsegm.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_bioinspired.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_ccalib.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_contrib_world.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_dpm.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_fuzzy.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_hdf.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_line_descriptor.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_optflow.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_reg.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_saliency.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_sfm.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_stereo.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_structured_light.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_surface_matching.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_tracking.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_xfeatures2d.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_ximgproc.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_xobjdetect.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_xphoto.3.2.0.dylib
+Dissertation: /usr/local/lib/libpangolin.dylib
+Dissertation: /usr/local/lib/libboost_thread-mt.dylib
+Dissertation: /usr/local/lib/libboost_system-mt.dylib
+Dissertation: /Users/qiaoting/Documents/DBoW2/build/libDBoW2.dylib
+Dissertation: /usr/local/lib/libopencv_shape.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_viz.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_phase_unwrapping.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_rgbd.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_calib3d.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_video.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_datasets.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_dnn.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_face.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_plot.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_text.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_features2d.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_flann.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_objdetect.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_ml.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_highgui.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_photo.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_videoio.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_imgcodecs.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_imgproc.3.2.0.dylib
+Dissertation: /usr/local/lib/libopencv_core.3.2.0.dylib
+Dissertation: /usr/local/lib/libGLEW.dylib
+Dissertation: /usr/lib/libpython2.7.dylib
+Dissertation: /usr/local/lib/libpng.dylib
+Dissertation: /usr/lib/libz.dylib
+Dissertation: /usr/local/lib/libjpeg.dylib
+Dissertation: /usr/local/lib/libtiff.dylib
+Dissertation: /usr/local/lib/libIlmImf.dylib
 Dissertation: CMakeFiles/Dissertation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Dissertation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Dissertation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dissertation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -435,8 +371,6 @@ CMakeFiles/Dissertation.dir/requires: CMakeFiles/Dissertation.dir/src/Tracking.c
 CMakeFiles/Dissertation.dir/requires: CMakeFiles/Dissertation.dir/src/Map.cpp.o.requires
 CMakeFiles/Dissertation.dir/requires: CMakeFiles/Dissertation.dir/src/QuasiDenseStereo.cpp.o.requires
 CMakeFiles/Dissertation.dir/requires: CMakeFiles/Dissertation.dir/src/Viewer.cpp.o.requires
-CMakeFiles/Dissertation.dir/requires: CMakeFiles/Dissertation.dir/src/FrameDrawer.cpp.o.requires
-CMakeFiles/Dissertation.dir/requires: CMakeFiles/Dissertation.dir/src/MapDrawer.cpp.o.requires
 
 .PHONY : CMakeFiles/Dissertation.dir/requires
 
@@ -445,6 +379,6 @@ CMakeFiles/Dissertation.dir/clean:
 .PHONY : CMakeFiles/Dissertation.dir/clean
 
 CMakeFiles/Dissertation.dir/depend:
-	cd /home/t/CLionProjects/Dissertation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t/CLionProjects/Dissertation /home/t/CLionProjects/Dissertation /home/t/CLionProjects/Dissertation/cmake-build-debug /home/t/CLionProjects/Dissertation/cmake-build-debug /home/t/CLionProjects/Dissertation/cmake-build-debug/CMakeFiles/Dissertation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/qiaoting/GitHub/Dissertation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/qiaoting/GitHub/Dissertation /Users/qiaoting/GitHub/Dissertation /Users/qiaoting/GitHub/Dissertation/cmake-build-debug /Users/qiaoting/GitHub/Dissertation/cmake-build-debug /Users/qiaoting/GitHub/Dissertation/cmake-build-debug/CMakeFiles/Dissertation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Dissertation.dir/depend
 

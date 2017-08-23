@@ -21,8 +21,8 @@ void LoadImages(const string &strPathToSequence, vector<string> &vstrImageLeft, 
         }
     }
 
-    string strPrefixLeft = strPathToSequence + "/image_0/";
-    string strPrefixRight = strPathToSequence + "/image_1/";
+    string strPrefixLeft = strPathToSequence + "/image_2/";
+    string strPrefixRight = strPathToSequence + "/image_3/";
 
     const int nTimes = vTimestamps.size();
     vstrImageLeft.resize(nTimes);
@@ -43,7 +43,7 @@ int main() {
     vector<string> vstrImageRight;
     vector<double> vTimestamps;
 
-    string left = "/home/t/Documents/ORB_SLAM2-master/Examples/Stereo/Dissertation/03";
+    string left = "/Users/qiaoting/Desktop/Data/dataset/sequences/03";
     LoadImages(left,vstrImageLeft,vstrImageRight,vTimestamps);
 
     cv::Mat imLeft, imRight, imLeftRect, imRightRect,K_l, K_r, P_l, P_r, R_l, R_r, D_l, D_r,Q;

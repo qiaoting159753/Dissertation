@@ -12,16 +12,11 @@
 #include "ORBVocabulary.h"
 #include "Map.h"
 #include "Viewer.h"
-#include "FrameDrawer.h"
-#include "MapDrawer.h"
-
 
 namespace Dissertation {
 
     class Frame;
     class Viewer;
-    class FrameDrawer;
-    class MapDrawer;
 
     class Tracking {
     public:
@@ -54,8 +49,6 @@ namespace Dissertation {
         Map mMMap;
 
         Viewer* mpViewer;
-        FrameDrawer* mpFrameDrawer;
-        MapDrawer* mpMapDrawer;
 
         Tracking(Camera* camera1);
 
